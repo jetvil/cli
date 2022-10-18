@@ -1,0 +1,16 @@
+.github
+.vscode
+.eslintrc.json
+.gitignore
+.npmignore
+.nvmrc
+
+tests
+coverage
+node_modules
+dist
+
+jest.config.ts
+tsconfig.json
+
+CHANGELOG.md
