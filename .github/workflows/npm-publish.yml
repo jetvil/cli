@@ -52,6 +52,12 @@ jobs:
       - name: install npm modules
         run: |
           npm ci
+      - name: build code base
+        run: |
+          npm run build
+      - name: replace script notation
+        run: |
+          npm run replace
       - name: publish package
         run: |
           npm publish

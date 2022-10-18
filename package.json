@@ -2,13 +2,14 @@
   "name": "@jetvil/cli",
   "version": "0.1.1",
   "description": "🚀 CLI package for JetVil space.",
-  "main": "./src/index.ts",
+  "main": "./dist/index.js",
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
     "build": "tsc",
     "build:watch": "tsc --watch",
     "lint": "eslint src --ext .ts",
+    "replace": "npx ts-node replace-script-notation.ts",
     "check:ci": "npx @jetvil/cli version --package @jetvil/cli"
   },
   "devDependencies": {

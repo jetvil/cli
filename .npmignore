@@ -8,7 +8,7 @@
 tests
 coverage
 node_modules
-dist
+src
 
 jest.config.ts
 tsconfig.json
