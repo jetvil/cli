@@ -1,0 +1,46 @@
+{
+  "name": "@jetvil/cli",
+  "version": "0.1.0",
+  "description": "🚀 CLI package for JetVil space.",
+  "main": "./src/index.ts",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "lint": "eslint src --ext .ts",
+    "check:ci": "npx @jetvil/cli version --package @jetvil/cli"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.0.3",
+    "@types/node": "^18.7.18",
+    "@typescript-eslint/eslint-plugin": "^5.37.0",
+    "@typescript-eslint/parser": "^5.37.0",
+    "eslint": "^8.23.1",
+    "jest": "^29.0.3",
+    "ts-jest": "^29.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3"
+  },
+  "engines": {
+    "node": ">=16.17.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jetvil/cli.git"
+  },
+  "keywords": [
+    "jetvil",
+    "jv-doc",
+    "typescript",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "JetVil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jetvil/cli/issues"
+  },
+  "homepage": "https://github.com/jetvil/cli#readme"
+}
