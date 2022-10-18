@@ -5,7 +5,7 @@ try {
   const indexCLIFile = readFileSync("./dist/index.js", "utf8");
   const newFile = indexCLIFile.replace("ts-node-script", "node");
   // write the new file to the same location
-  writeFileSync("./dist/cli/index.js", newFile);
+  writeFileSync("./dist/index.js", newFile);
   process.exit(0);
 } catch (error) {
   console.error(error);

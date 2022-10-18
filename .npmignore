@@ -14,3 +14,4 @@ jest.config.ts
 tsconfig.json
 
 CHANGELOG.md
+replace-script-notation.ts
